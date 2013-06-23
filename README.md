@@ -1,11 +1,11 @@
 OSHW_StepperDriver
 ==================
 
-Version 0.6(beta stage)
+Version 0.6.1 beta
 
 License: CC BY-SA
 
-SW: Eagle CAD
+Software: Eagle CAD v6.4
 
 Stepper motor driver (A4989 and IRLR024)
 
