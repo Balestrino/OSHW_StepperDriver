@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22872,9 +22872,9 @@ Starboard pads sans the star cutout in top layer</description>
 <instance part="C5" gate="G$1" x="-109.22" y="40.64" rot="R90"/>
 <instance part="X1" gate="G$1" x="-45.72" y="45.72"/>
 <instance part="GND5" gate="1" x="-35.56" y="35.56"/>
-<instance part="R5" gate="G$1" x="-68.58" y="58.42" rot="R90"/>
-<instance part="R6" gate="G$1" x="-60.96" y="58.42" rot="R90"/>
-<instance part="R7" gate="G$1" x="-53.34" y="58.42" rot="R90"/>
+<instance part="R5" gate="G$1" x="-71.12" y="58.42" rot="R90"/>
+<instance part="R6" gate="G$1" x="-63.5" y="58.42" rot="R90"/>
+<instance part="R7" gate="G$1" x="-55.88" y="58.42" rot="R90"/>
 <instance part="JP1" gate="A" x="-101.6" y="10.16"/>
 <instance part="GND6" gate="1" x="-88.9" y="-2.54"/>
 <instance part="R8" gate="G$1" x="-111.76" y="22.86" rot="R90"/>
@@ -22918,7 +22918,7 @@ Starboard pads sans the star cutout in top layer</description>
 <instance part="C11" gate="G$1" x="-116.84" y="-25.4"/>
 <instance part="C12" gate="G$1" x="-101.6" y="-25.4"/>
 <instance part="C13" gate="G$1" x="-86.36" y="-25.4"/>
-<instance part="R26" gate="G$1" x="-60.96" y="38.1" rot="R90"/>
+<instance part="R26" gate="G$1" x="-63.5" y="33.02" rot="R90"/>
 <instance part="C14" gate="G$1" x="-60.96" y="-25.4"/>
 <instance part="C15" gate="G$1" x="-53.34" y="-20.32"/>
 <instance part="SUPPLY4" gate="GND" x="-48.26" y="-33.02"/>
@@ -23119,12 +23119,12 @@ Starboard pads sans the star cutout in top layer</description>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-53.34" y1="63.5" x2="-60.96" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="63.5" x2="-63.5" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-60.96" y1="63.5" x2="-68.58" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-60.96" y="63.5"/>
-<wire x1="-68.58" y1="63.5" x2="-73.66" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-68.58" y="63.5"/>
+<wire x1="-63.5" y1="63.5" x2="-71.12" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-63.5" y="63.5"/>
+<wire x1="-71.12" y1="63.5" x2="-73.66" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-71.12" y="63.5"/>
 <label x="-78.74" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -23147,8 +23147,8 @@ Starboard pads sans the star cutout in top layer</description>
 </segment>
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="-60.96" y1="33.02" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
-<label x="-60.96" y="30.48" size="1.778" layer="95"/>
+<wire x1="-63.5" y1="27.94" x2="-60.96" y2="27.94" width="0.1524" layer="91"/>
+<label x="-60.96" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
@@ -23204,7 +23204,7 @@ Starboard pads sans the star cutout in top layer</description>
 <label x="-78.74" y="48.26" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="48.26" x2="-73.66" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="53.34" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="53.34" x2="-60.96" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-60.96" y="48.26"/>
 </segment>
 <segment>
@@ -23219,7 +23219,7 @@ Starboard pads sans the star cutout in top layer</description>
 <wire x1="-53.34" y1="45.72" x2="-73.66" y2="45.72" width="0.1524" layer="91"/>
 <label x="-78.74" y="45.72" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="-53.34" y1="53.34" x2="-53.34" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="53.34" x2="-53.34" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-53.34" y="45.72"/>
 </segment>
 <segment>
@@ -23235,7 +23235,7 @@ Starboard pads sans the star cutout in top layer</description>
 <label x="-78.74" y="50.8" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="50.8" x2="-73.66" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="53.34" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="53.34" x2="-68.58" y2="50.8" width="0.1524" layer="91"/>
 <junction x="-68.58" y="50.8"/>
 </segment>
 <segment>
@@ -23697,12 +23697,13 @@ Starboard pads sans the star cutout in top layer</description>
 <label x="-48.26" y="-86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="4"/>
-<wire x1="-53.34" y1="43.18" x2="-60.96" y2="43.18" width="0.1524" layer="91"/>
 <label x="-78.74" y="43.18" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="-53.34" y1="43.18" x2="-63.5" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
-<wire x1="-60.96" y1="43.18" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-60.96" y="43.18"/>
+<wire x1="-63.5" y1="43.18" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="38.1" x2="-63.5" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-63.5" y="43.18"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -23778,10 +23779,6 @@ Starboard pads sans the star cutout in top layer</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="110,1,-53.34,48.26,ENABLE,DIR,,,,"/>
-<approved hash="110,1,-53.34,50.8,ENABLE,STEP,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
