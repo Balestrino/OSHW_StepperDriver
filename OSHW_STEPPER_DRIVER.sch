@@ -23107,9 +23107,7 @@ Starboard pads sans the star cutout in top layer</description>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-119.38" y1="43.18" x2="-119.38" y2="40.64" width="0.1524" layer="91"/>
-<label x="-119.38" y="38.1" size="1.778" layer="95"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="-111.76" y1="40.64" x2="-119.38" y2="40.64" width="0.1524" layer="91"/>
+<label x="-124.46" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X1" gate="G$1" pin="5"/>
@@ -23180,9 +23178,14 @@ Starboard pads sans the star cutout in top layer</description>
 <wire x1="-129.54" y1="53.34" x2="-119.38" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="E"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-119.38" y1="53.34" x2="-114.3" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="53.34" x2="-116.84" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-119.38" y="53.34"/>
 <label x="-129.54" y="53.34" size="1.778" layer="95"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="-116.84" y1="53.34" x2="-114.3" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="40.64" x2="-116.84" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="40.64" x2="-116.84" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-116.84" y="53.34"/>
 </segment>
 </net>
 <net name="N$3" class="0">
