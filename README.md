@@ -1,7 +1,7 @@
 OSHW_StepperDriver
 ==================
 
-Version 0.6.1 beta
+Version 0.6.2 beta
 
 License: CC BY-SA
 
